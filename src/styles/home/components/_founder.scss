@@ -1,0 +1,121 @@
+.founder {
+	padding: 50px 0;
+
+	@media (min-width: 1024px) {
+		padding: 80px 0;
+	}
+
+	&__title {
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 28px;
+		color: $global-dark-blue;
+		margin-bottom: 20px;
+
+		@media (min-width: 1024px) {
+			font-size: 32px;
+			line-height: 44px;
+		}
+	}
+
+	&__content {
+		@media (min-width: 1024px) {
+			display: flex;
+			align-items: center;
+			gap: 24px;
+		}
+	}
+
+	&__left {
+		margin-bottom: 20px;
+
+		img {
+			width: 100%;
+			border-radius: 10px;
+		}
+
+		@media (min-width: 1024px) {
+			margin-bottom: 0;
+			width: 550px;
+		}
+	}
+
+	&__right {
+		@media (min-width: 1024px) {
+			width: calc(100% - 360px - 24px);
+		}
+	}
+
+	&__description {
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		color: $global-dark-blue;
+		margin-bottom: 20px;
+
+		@media (min-width: 1024px) {
+			margin-bottom: 30px;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 26px;
+		}
+
+		&_name {
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 26px;
+			margin-bottom: 10px;
+			color: $global-dark-blue;
+
+			@media (min-width: 1024px) {
+				font-size: 24px;
+				line-height: 34px;
+			}
+		}
+
+		&_position {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 22px;
+			color: $global-grey-dark;
+			margin-bottom: 20px;
+
+			@media (min-width: 1024px) {
+				font-size: 18px;
+				line-height: 26px;
+			}
+		}
+
+		&_text {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 22px;
+			color: $global-dark-blue;
+			margin-bottom: 30px;
+
+			@media (min-width: 1024px) {
+				font-size: 18px;
+				line-height: 26px;
+				margin-bottom: 40px;
+			}
+		}
+	}
+
+	&__articles {
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 26px;
+		color: $global-dark-blue;
+		margin-bottom: 20px;
+
+		@media (min-width: 1024px) {
+			font-size: 24px;
+			line-height: 34px;
+		}
+	}
+
+	&__link {
+		display: flex;
+		gap: 16px;
+	}
+}

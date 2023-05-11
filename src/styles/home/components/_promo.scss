@@ -1,0 +1,101 @@
+.promo {
+	position: relative;
+	background: $global-backgraund-grey;
+	padding: 60px 0;
+
+	@media (min-width: 1024px) {
+		padding-top: 100px;
+		padding-bottom: 130px;
+	}
+
+
+	&__content {
+		@media (min-width: 1024px) {
+			display: flex;
+			align-items: center;
+			gap: 24px;
+		}
+	}
+
+	&__title {
+		font-weight: 500;
+		font-size: 28px;
+		line-height: 40px;
+		color: $global-dark-blue;
+		margin-bottom: 10px;
+
+		@media (min-width: 1024px) {
+			font-size: 48px;
+			line-height: 68px;
+		}
+	}
+
+	&__description {
+		@media (min-width: 1024px) {
+			width: calc(100% - 454px - 24px);
+		}
+	}
+
+	&__subtitle {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		color: $global-grey-dark;
+		margin-bottom: 30px;
+
+		@media (min-width: 1024px) {
+			font-size: 18px;
+			line-height: 26px;
+		}
+	}
+
+	&__img {
+		margin-bottom: 110px;
+
+		@media (min-width: 1024px) {
+			width: 454px;
+			margin-bottom: 0;
+		}
+
+		img {
+			width: 100%
+		}
+	}
+
+	&__actions {
+		display: flex;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 60px;
+		gap: 20px;
+		align-items: center;
+		padding: 0 16px;
+
+		@media (min-width: 1024px) {
+			display: block;
+			position: static;
+			gap: unset;
+			padding: 0;
+		}
+	}
+
+	&__button-connect {
+		width: 100%;
+	}
+
+	&__play {
+		@media (min-width: 1024px) {
+			display: flex;
+			align-items: center;
+			gap: 20px;
+		}
+	}
+
+	&__play-text {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		color: $global-grey-dark;
+	}
+}
