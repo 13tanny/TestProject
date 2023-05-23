@@ -13,7 +13,7 @@
 		color: $global-dark-blue;
 		margin-bottom: 20px;
 
-		c {
+		@media(min-width: 1024px) {
 			font-size: 32px;
 			line-height: 46px;
 			margin-bottom: 40px;

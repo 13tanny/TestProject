@@ -188,10 +188,12 @@
   color: #1F222A;
   margin-bottom: 20px;
 }
-.team__title c {
-  font-size: 32px;
-  line-height: 46px;
-  margin-bottom: 40px;
+@media (min-width: 1024px) {
+  .team__title {
+    font-size: 32px;
+    line-height: 46px;
+    margin-bottom: 40px;
+  }
 }
 .team__description {
   font-weight: 400;
@@ -434,19 +436,20 @@
 .articles__icon {
   width: 72px;
   height: 72px;
-}
-.articles__icon img {
-  width: 100%;
   opacity: 0.9;
   -webkit-box-shadow: 0 0 0 rgba(79, 87, 92, 0.1);
           box-shadow: 0 0 0 rgba(79, 87, 92, 0.1);
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-.articles__icon img:hover {
+.articles__icon:hover {
   opacity: 1;
   -webkit-box-shadow: 0 2px 10px rgba(79, 87, 92, 0.1);
           box-shadow: 0 2px 10px rgba(79, 87, 92, 0.1);
+}
+.articles__icon img {
+  width: 100%;
+  vertical-align: top;
 }
 
 .block-invisible {

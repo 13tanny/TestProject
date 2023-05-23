@@ -645,8 +645,8 @@ textarea {
     background: #fff;
     opacity: 0;
     visibility: hidden;
-    -webkit-transition: 0.3;
-    transition: 0.3;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
   }
 }
 .lang__item {
