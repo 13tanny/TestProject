@@ -10,17 +10,8 @@
 
 		&_type {
 			&_flex {
-				// 	.form {
-				// 		&__row {
-				// 			width: 100%;
-
-				// 			+ .form {
-				// 				&__row {
-				// 					margin-top: 0;
-				// 				}
-				// 			}
-				// 		}
-				// 	}
+				display: flex;
+				flex-direction: column;
 
 				.form__row+.form__row {
 					@media (min-width: 1024px) {
@@ -33,7 +24,7 @@
 				}
 
 				@media (min-width: 1024px) {
-					display: flex;
+					flex-direction: row;
 					gap: 20px;
 				}
 			}
