@@ -296,6 +296,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
+  color: #4F575C;
 }
 
 .founder {
@@ -552,6 +553,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    gap: 24px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;

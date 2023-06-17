@@ -1,0 +1,163 @@
+.post {
+	padding-top: 10px;
+	padding-bottom: 25px;
+
+	@media (min-width: 1024px) {
+		padding-top: 30px;
+		padding-bottom: 80px;
+	}
+
+	// .post__btn-back
+	&__btn-back {
+		margin-bottom: 20px;
+
+		@media (min-width: 1024px) {
+			margin-bottom: 30px;
+		}
+	}
+
+	// .post__heading
+	&__heading {
+		text-align: center;
+	}
+
+	// .post__category
+	&__category {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		color: $global-blue;
+		margin-bottom: 10px;
+
+		@media (min-width: 1024px) {
+			font-size: 18px;
+			line-height: 26px;
+		}
+	}
+
+	// .post__title
+	&__title {
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 26px;
+		color: $global-dark-blue;
+		margin-bottom: 20px;
+
+		@media (min-width: 1024px) {
+			font-size: 24px;
+			line-height: 36px;
+			margin-bottom: 40px;
+		}
+	}
+
+	// .post__body
+	&__body {}
+
+	// .post__img
+
+	&__img {
+		margin-bottom: 20px;
+
+		@media (min-width: 1024px) {
+			margin-bottom: 40px;
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+
+	// .post__content
+	&__content {
+		padding: 0 90px;
+	}
+
+	// .post__text
+	&__text {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		color: $global-dark-blue;
+		padding-bottom: 20px;
+
+		@media (min-width: 1024px) {
+			font-size: 18px;
+			line-height: 26px;
+		}
+	}
+
+	// .post__list
+	&__list {
+		list-style-type: disc;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		color: $global-dark-blue;
+		padding-left: 20px;
+		margin-bottom: 20px;
+
+		@media (min-width: 1024px) {
+			font-size: 18px;
+			line-height: 26px;
+		}
+	}
+
+	// .post__item
+	&__item {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		color: $global-dark-blue;
+
+		@media (min-width: 1024px) {
+			font-size: 18px;
+			line-height: 26px;
+		}
+	}
+
+	// .post__date
+	&__date {
+		text-align: end;
+
+	}
+}
+
+
+.button {
+
+	// .button_with_icon-left
+	&_with {
+		&_icon-left {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			gap: 14px;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 24px;
+			color: $global-grey-dark;
+
+			@media (min-width: 1024px) {
+				font-size: 18px;
+				line-height: 26px;
+			}
+
+			svg {
+				width: 24px;
+				height: 24px;
+			}
+		}
+	}
+
+	// .button_type
+	&_type {}
+
+	// .button_border_none
+
+	&_border {
+		&_none {
+			outline: none !important;
+		}
+	}
+}

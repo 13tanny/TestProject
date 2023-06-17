@@ -16,13 +16,19 @@
 		<div class="layout">
 			<div class="header__inner">
 				<div class="header__logo">
-					<img src="../src/images/home/header/LOGO.png" alt="logo">
+					<a class="header__link" href="./home.html">
+						<img src="../src/images/home/header/LOGO.png" alt="logo">
+					</a>
 				</div>
 				<div class="header__controls">
 					<nav class="header-navigation ">
 						<ul class="header-navigation__list">
-							<li class="header-navigation__item">Услуги</li>
-							<li class="header-navigation__item">О нас</li>
+							<li class="header-navigation__item">
+								<a class="header-navigation__link" href="#Our-services">Услуги</a>
+							</li>
+							<li class="header-navigation__item">
+								<a class="header-navigation__link" href="../dist/about.html">О нас</a>
+							</li>
 							<li class="header-navigation__item">Блог</li>
 							<li class="header-navigation__item">Вакансии</li>
 							<li class="header-navigation__item">Контакты</li>
@@ -104,7 +110,7 @@
 		<div class="services">
 			<div class="layout">
 				<div class="services__inner">
-					<div class="services__title">Наши услуги</div>
+					<div id="Our-services" class="services__title">Наши услуги</div>
 					<ul class="services__list">
 						<li class="services__item">
 							<div class="service-tile">
@@ -379,13 +385,13 @@
 							индивидуально, а затем - реализуем ее самым продуктивным способом.
 						</div>
 						<div class="about__actions">
-							<button class="button button_type_link button_with_icon">
-								Узнать больше
+							<a class="about__link button button_type_link button_with_icon" href="../dist/about.html">Узнать
+								больше
 								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M20.9178 12.2363H3.87402" stroke="#4F575C" />
 									<path d="M14.4562 5.48633L20.9175 12.2963L14.4562 18.4951" stroke="#4F575C" />
 								</svg>
-							</button>
+							</a>
 						</div>
 					</div>
 				</div>

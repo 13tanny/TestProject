@@ -563,6 +563,11 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
 }
+.header-navigation__link {
+  color: #1f222a;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 .lang {
   display: -webkit-box;

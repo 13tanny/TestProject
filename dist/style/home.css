@@ -419,6 +419,11 @@
             justify-content: flex-start;
   }
 }
+.about__link {
+  color: #1f222a;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 .founder {
   padding: 50px 0;
