@@ -1,4 +1,4 @@
-.blog {
+.blog-promo {
 	padding: 50px 0;
 	background: $global-backgraund-grey;
 
@@ -6,7 +6,7 @@
 		padding: 80px 0;
 	}
 
-	// .blog__inner
+	// .blog-promo__inner
 	&__inner {
 		@media (min-width: 1024px) {
 			display: flex;
@@ -15,14 +15,14 @@
 		}
 	}
 
-	// .blog__content
+	// .blog-promo__content
 	&__content {
 		@media (min-width: 1024px) {
 			width: 50%;
 		}
 	}
 
-	// .blog__title
+	// .blog-promo__title
 	&__title {
 		font-weight: 400;
 		font-size: 20px;
@@ -37,7 +37,7 @@
 		}
 	}
 
-	// .blog__text
+	// .blog-promo__text
 	&__text {
 		font-weight: 400;
 		font-size: 16px;
@@ -50,7 +50,7 @@
 		}
 	}
 
-	// .blog__img
+	// .blog-promo__img
 	&__img {
 		@media (min-width: 1024px) {
 			width: 50%;

@@ -526,6 +526,7 @@ textarea {
   border-bottom-right-radius: 10px;
   -webkit-box-shadow: 0px 2px 10px 0px rgba(79, 87, 92, 0.1);
           box-shadow: 0px 2px 10px 0px rgba(79, 87, 92, 0.1);
+  display: none;
 }
 @media (min-width: 1024px) {
   .header-navigation {
