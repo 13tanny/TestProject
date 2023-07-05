@@ -10,7 +10,7 @@
 		font-weight: 400;
 		font-size: 20px;
 		line-height: 28px;
-		color: $global-dark-blue;
+		color: $global-black-grey;
 		margin-bottom: 20px;
 
 		@media (min-width: 1024px) {
@@ -55,7 +55,7 @@
 		font-weight: 500;
 		font-size: 16px;
 		line-height: 24px;
-		color: $global-dark-blue;
+		color: $global-black-grey;
 		margin-bottom: 20px;
 
 		@media (min-width: 1024px) {
@@ -72,7 +72,7 @@
 		font-size: 18px;
 		line-height: 26px;
 		margin-bottom: 10px;
-		color: $global-dark-blue;
+		color: $global-black-grey;
 
 		@media (min-width: 1024px) {
 			font-size: 24px;
@@ -99,7 +99,7 @@
 		font-weight: 400;
 		font-size: 16px;
 		line-height: 22px;
-		color: $global-dark-blue;
+		color: $global-black-grey;
 		margin-bottom: 30px;
 
 		@media (min-width: 1024px) {
@@ -111,12 +111,13 @@
 }
 
 .articles {
+
 	// .articles__title
 	&__title {
 		font-weight: 500;
 		font-size: 18px;
 		line-height: 26px;
-		color: $global-dark-blue;
+		color: $global-black-grey;
 		margin-bottom: 20px;
 
 		@media (min-width: 1024px) {
@@ -173,7 +174,7 @@
 	left: 0;
 	display: flex;
 	width: 370px;
-	background: $global-backgraund-white;
+	background: $global-background-white;
 	border-radius: 10px;
 	opacity: 0;
 	visibility: hidden;

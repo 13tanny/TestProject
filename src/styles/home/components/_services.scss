@@ -5,11 +5,14 @@
 		padding: 80px 0;
 	}
 
+	// .services__inner
+
+	// .services__title
 	&__title {
 		font-weight: 400;
 		font-size: 20px;
 		line-height: 28px;
-		color: $global-dark-blue;
+		color: $global-black-grey;
 		margin-bottom: 20px;
 
 		@media (min-width: 1024px) {
@@ -18,11 +21,15 @@
 			margin-bottom: 40px;
 		}
 	}
+
+	// .services__list
+
+	// .services__item
 }
 
 .service-tile {
 	position: relative;
-	background: $global-backgraund-white;
+	background: $global-background-white;
 	border-radius: 0px 10px 10px 0px;
 	box-shadow: 0 2px 10px rgba(79, 87, 92, 0.1);
 	margin-bottom: 20px;
@@ -34,6 +41,7 @@
 		margin-bottom: 40px;
 	}
 
+	// .service-tile_type
 	&_type {
 		&_reverse {
 			@media (min-width: 1024px) {
@@ -42,6 +50,7 @@
 		}
 	}
 
+	// .service-tile__img
 	&__img {
 		margin-bottom: 20px;
 
@@ -57,6 +66,7 @@
 		}
 	}
 
+	// .service-tile__body
 	&__body {
 		padding: 20px 10px;
 
@@ -66,11 +76,14 @@
 		}
 	}
 
+	// .service-tile__heading
+
+	// .service-tile__title
 	&__title {
 		font-weight: 500;
 		font-size: 18px;
 		line-height: 26px;
-		color: $global-dark-blue;
+		color: $global-black-grey;
 		margin-bottom: 10px;
 
 		@media (min-width: 1024px) {
@@ -79,11 +92,12 @@
 		}
 	}
 
+	// .service-tile__description
 	&__description {
 		font-size: 16px;
 		font-weight: 400;
 		line-height: 22px;
-		color: $global-dark-blue;
+		color: $global-black-grey;
 		margin-bottom: 20px;
 
 		@media (min-width: 1024px) {
@@ -92,8 +106,9 @@
 		}
 	}
 
+	// .service-tile__content
 	&__content {
-		border-top: 1px solid $global-dark-blue;
+		border-top: 1px solid $global-black-grey;
 	}
 }
 
@@ -103,6 +118,7 @@
 	align-items: center;
 	justify-content: space-between;
 
+	// .case__list
 	&__list {
 		display: flex;
 		gap: 16px;
@@ -112,6 +128,7 @@
 		}
 	}
 
+	// .case__item
 	&__item {
 		width: 72px;
 		height: 72px;
@@ -124,6 +141,7 @@
 		}
 	}
 
+	// .case__button
 	&__button {
 		transition: .3s;
 
@@ -172,13 +190,14 @@
 		}
 	}
 
+	// .case__content
 	&__content {
 		position: absolute;
 		z-index: 2;
 		top: 100%;
 		left: 0;
 		padding: 20px;
-		background: $global-backgraund-white;
+		background: $global-background-white;
 		border-radius: 10px;
 		opacity: 0;
 		visibility: hidden;
@@ -202,7 +221,7 @@
 			font-weight: 400;
 			font-size: 16px;
 			line-height: 22px;
-			color: $global-grey-dark;
+			color: $global-black-grey;
 
 			@media (min-width: 1024px) {
 				font-size: 18px;

@@ -46,7 +46,7 @@
 
 		&_transparent {
 			background: transparent;
-			border: 0.75px solid #4F575C;
+			border: 0.75px solid $global-grey-dark;
 			border-radius: 75px;
 		}
 	}
@@ -58,8 +58,8 @@
 		}
 
 		&_large {
-			height: 60px;
-			width: 60px;
+			height: 80px;
+			width: 80px;
 
 			svg {
 				width: 33px;
