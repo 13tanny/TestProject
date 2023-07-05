@@ -140,6 +140,12 @@ body,
   font-family: "Montserrat", sans-serif;
 }
 
+a {
+  color: #1f222a;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .hide {
   display: none !important;
 }
@@ -269,12 +275,6 @@ body,
 .button_with_icon svg {
   width: 24px;
   height: 24px;
-}
-
-a {
-  color: #1f222a;
-  text-decoration: none;
-  cursor: pointer;
 }
 
 .form__row {
@@ -407,23 +407,6 @@ input:not([type=checkbox]):not([type=radio]):not([type=file]):focus, input:not([
 textarea:not([type=checkbox]):not([type=radio]):not([type=file]):focus,
 textarea:not([type=checkbox]):not([type=radio]):not([type=file]):hover {
   border-color: #3176FF;
-}
-input:not([type=checkbox]):not([type=radio]):not([type=file]):focus::-webkit-input-placeholder, input:not([type=checkbox]):not([type=radio]):not([type=file]):hover::-webkit-input-placeholder, textarea:not([type=checkbox]):not([type=radio]):not([type=file]):focus::-webkit-input-placeholder, textarea:not([type=checkbox]):not([type=radio]):not([type=file]):hover::-webkit-input-placeholder {
-  opacity: 1;
-}
-input:not([type=checkbox]):not([type=radio]):not([type=file]):focus::-moz-placeholder, input:not([type=checkbox]):not([type=radio]):not([type=file]):hover::-moz-placeholder, textarea:not([type=checkbox]):not([type=radio]):not([type=file]):focus::-moz-placeholder, textarea:not([type=checkbox]):not([type=radio]):not([type=file]):hover::-moz-placeholder {
-  opacity: 1;
-}
-input:not([type=checkbox]):not([type=radio]):not([type=file]):focus:-ms-input-placeholder, input:not([type=checkbox]):not([type=radio]):not([type=file]):hover:-ms-input-placeholder, textarea:not([type=checkbox]):not([type=radio]):not([type=file]):focus:-ms-input-placeholder, textarea:not([type=checkbox]):not([type=radio]):not([type=file]):hover:-ms-input-placeholder {
-  opacity: 1;
-}
-input:not([type=checkbox]):not([type=radio]):not([type=file]):focus::-ms-input-placeholder, input:not([type=checkbox]):not([type=radio]):not([type=file]):hover::-ms-input-placeholder, textarea:not([type=checkbox]):not([type=radio]):not([type=file]):focus::-ms-input-placeholder, textarea:not([type=checkbox]):not([type=radio]):not([type=file]):hover::-ms-input-placeholder {
-  opacity: 1;
-}
-input:not([type=checkbox]):not([type=radio]):not([type=file]):focus::placeholder, input:not([type=checkbox]):not([type=radio]):not([type=file]):hover::placeholder,
-textarea:not([type=checkbox]):not([type=radio]):not([type=file]):focus::placeholder,
-textarea:not([type=checkbox]):not([type=radio]):not([type=file]):hover::placeholder {
-  opacity: 1;
 }
 input:not([type=checkbox]):not([type=radio]):not([type=file]) + label,
 textarea:not([type=checkbox]):not([type=radio]):not([type=file]) + label {

@@ -91,6 +91,9 @@
   background: #3176FF;
   border-color: #3176FF;
 }
+.promo__play-btn:hover svg path {
+  fill: #fff;
+}
 .promo__play-btn svg {
   width: 18px;
   height: 24px;
@@ -104,8 +107,9 @@
     height: 50px;
   }
 }
-.promo__play-btn:hover svg {
-  fill: #fff;
+.promo__play-btn svg path {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .promo__play-text {
   font-size: 16px;

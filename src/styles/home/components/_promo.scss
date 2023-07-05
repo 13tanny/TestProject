@@ -85,27 +85,31 @@
 		}
 	}
 
-	// .promo__play-btn
-	&__play-btn:hover {
-		background: $global-blue;
-		border-color: $global-blue;
-	}
+	&__play-btn {
+		&:hover {
+			background: $global-blue;
+			border-color: $global-blue;
 
-	// .promo__play-btn svg
-	&__play-btn svg {
-		width: 18px;
-		height: 24px;
-		transition: fill .2s ease-in-out;
-		fill: #4f575c;
-
-		@media (min-width: 1024px) {
-			width: 44px;
-			height: 50px;
+			svg path {
+				fill: #fff;
+			}
 		}
-	}
 
-	&__play-btn:hover svg {
-		fill: #fff;
+		svg {
+			width: 18px;
+			height: 24px;
+			transition: fill .2s ease-in-out;
+			fill: #4f575c;
+
+			@media (min-width: 1024px) {
+				width: 44px;
+				height: 50px;
+			}
+
+			path {
+				transition: .3s;
+			}
+		}
 	}
 
 	// .promo__play-text

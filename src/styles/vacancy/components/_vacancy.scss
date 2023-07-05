@@ -61,7 +61,17 @@
 }
 
 .scrol-tile {
+	&_open {
+		.scrol-tile__description {
+			display: block;
+		}
 
+		.scrol-tile__title {
+			svg {
+				transform: rotate(180deg);
+			}
+		}
+	}
 	// .scrol-tile__title
 	&__title {
 		display: flex;
@@ -86,6 +96,7 @@
 
 	// .scrol-tile__description
 	&__description {
+		display: none;
 		margin-bottom: 24px;
 
 		@media (min-width: 1024px) {

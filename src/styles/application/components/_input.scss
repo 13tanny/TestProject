@@ -37,9 +37,9 @@ textarea {
 		&:hover {
 			border-color: $global-blue;
 
-			&::placeholder {
-				opacity: 1;
-			}
+			//&::placeholder {
+			//	opacity: 1;
+			//}
 		}
 
 		+label {
